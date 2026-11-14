@@ -11,4 +11,5 @@ class Product(base):
     name = Column(String(100))
     description = Column(String(100))
     price = Column(Float)
+    print("quantite")
     quantite = Column(Integer)
