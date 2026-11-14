@@ -12,5 +12,5 @@ class Product(base):
     description = Column(String(100))
     price = Column(Float)
     print("quantite")
-    print(price)
+    print(price) 
     quantite = Column(Integer)
